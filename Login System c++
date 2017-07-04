@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main(){
+	string usuario;
+	string senha;
+		cout<<"Digite o nome de Usuario\n";
+		cin>>usuario;
+		cout<<"Digite sua senha\n";
+		cin>>senha;
+	if(usuario !="admin"){
+		cout<<"Usuario Incorreto, Sistema Negado!";
+	}
+	else if(senha !="admin"){
+		cout<<"Senha Incorreta, Sistema Negado!";
+	}
+	else{
+		cout<<"Sistema Liberado!";
+	}
+	return 0;
+}
